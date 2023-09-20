@@ -1,0 +1,224 @@
+/* main-header */
+#main-header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.addvertisement {
+    background-color: #fbfbfb;
+    padding-block: 10px;
+}
+.navbar {
+    padding-block: 17px;
+    background-color: white;
+}
+
+/* main-header end */
+
+/* showcase */
+#showcase {
+    min-height: 700px;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.showcase-intro h1 {
+    color: var(--af-white, #FFF);
+    margin-bottom: 7%;
+
+font-family: Open Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+letter-spacing: 2.24px;
+text-transform: uppercase;
+}
+.showcase-intro p {
+    color: var(--af-white, #FFF);
+
+
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 167.5%; 
+}
+/* showcase end*/
+
+.g1 {
+    width: 680px;
+    height: 460px;
+}
+.pr {
+    width: 128px;
+    height: 410px;
+}
+.what-you-need-text h5 {
+    color: var(--af-white, #FFF);
+
+/* universal/body/regular */
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 167.5%; /* 26.8px */
+}
+.what-you-need-item::before {
+    content: "/";
+    color: orange;
+    padding-right: 10px;
+}
+.what-you-need-item {
+    color: var(--af-white, #FFF);
+
+/* universal/Body2(Bold) */
+font-family: Arca Majora 3;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 167.5%; /* 26.8px */
+}
+#what-you-need {
+    height: 70vh;
+    min-height: 700px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* gap: 30px; */
+}
+
+#workout {
+    height: 70vh;
+    min-height: 700px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#like h2 {
+    padding-block: 5%;
+}
+#like {
+    height: 120vh;
+}
+footer {
+    background-color: #f1f1f1;
+    height: 80vh;
+}
+.item-2 h3 {
+    padding-top: 105%;
+}
+.item-3 h3 {
+    padding-top: 60%;
+}
+.item-1 h3 {
+    padding-bottom: 7%;
+}
+.menu {
+    display: none;
+}
+.foot {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:1220px) {
+    .nav-item {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .user {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    #showcase {
+        display:flex;
+        flex-direction: column;
+        height: 120vh;
+    }
+    #showcase img {
+        padding-right: 0;
+        margin-right: 0;
+        padding-bottom: 10%;
+    }
+    .showcase-intro {
+        width: 450px;
+    }
+    #what-you-need {
+        height: 110vh;
+    }
+    .what-you-need-intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .g1 {
+        margin-block: 5%;
+        
+    }
+    .workout-intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .workout-intro h2 {
+        align-self: self-start;
+        font-size: 50px;
+        /* margin-top: 10%; */
+    }
+    #workout {
+        height: 110vh;
+    }
+    #like {
+        height: 90vh;
+
+    }
+    #like h2 {
+        /* display: inline-block; */
+        /* text-align: left; */
+        margin-top: 10%;
+    }
+    .products {
+       
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+        
+        
+        
+    }
+    .product {
+        width: 367px;
+        height: 291px;
+        /* display: inline-block; */
+    }
+    .pr1 {
+        display: none;
+    }
+    .foot {
+       display:flex;
+       flex-direction: column;
+        
+    }
+    .container {
+        width: 500px;
+    }
+    footer {
+        height: 140vh;
+    }
+    .item-1 {
+        margin-top: 10%;
+    }
+}
